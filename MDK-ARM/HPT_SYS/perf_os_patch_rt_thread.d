@@ -1,0 +1,19 @@
+./hpt_sys/perf_os_patch_rt_thread.o: \
+  ..\Packages\perf_counter\perf_os_patch_rt_thread.c \
+  ..\Middlewares\Third_Party\RealThread_RTOS\include\rtthread.h \
+  ..\RT-Thread\rtconfig.h \
+  ..\Middlewares\Third_Party\RealThread_RTOS\finsh\finsh_config.h \
+  ..\Middlewares\Third_Party\RealThread_RTOS\include\rtdebug.h \
+  ..\Middlewares\Third_Party\RealThread_RTOS\include\rtdef.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  ..\Middlewares\Third_Party\RealThread_RTOS\include\rtservice.h \
+  ..\Middlewares\Third_Party\RealThread_RTOS\finsh\finsh_api.h \
+  ..\Middlewares\Third_Party\RealThread_RTOS\finsh\finsh_config.h \
+  ..\Packages\perf_counter\perf_counter.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h

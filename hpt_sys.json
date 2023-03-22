@@ -1,0 +1,126 @@
+{
+    "frameEnd": "",
+    "frameStart": "",
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 4096,
+                    "min": 0,
+                    "title": "P0",
+                    "units": "kpa",
+                    "value": "%2",
+                    "widget": "bar"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 4096,
+                    "min": 0,
+                    "title": "P1",
+                    "units": "kpa",
+                    "value": "%3",
+                    "widget": "bar"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 4096,
+                    "min": 0,
+                    "title": "P2",
+                    "units": "kpa",
+                    "value": "%4",
+                    "widget": "bar"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 4096,
+                    "min": 0,
+                    "title": "P3",
+                    "units": "kpa",
+                    "value": "%5",
+                    "widget": "bar"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 4096,
+                    "min": 0,
+                    "title": "P4",
+                    "units": "kpa",
+                    "value": "%6",
+                    "widget": "bar"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 4096,
+                    "min": 0,
+                    "title": "P5",
+                    "units": "kpa",
+                    "value": "%7",
+                    "widget": "bar"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 4096,
+                    "min": 0,
+                    "title": "P6",
+                    "units": "kpa",
+                    "value": "%8",
+                    "widget": "bar"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 4096,
+                    "min": 0,
+                    "title": "P7",
+                    "units": "kpa",
+                    "value": "%9",
+                    "widget": "bar"
+                }
+            ],
+            "title": "HPT System data",
+            "widget": ""
+        }
+    ],
+    "separator": "",
+    "title": "%1"
+}

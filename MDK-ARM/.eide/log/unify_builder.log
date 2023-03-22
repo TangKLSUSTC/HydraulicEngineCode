@@ -1,0 +1,128 @@
+[2021-12-20 20:34:12]	compilation failed at : "h:\CodeTestZone\HPT_SYS_v2.0\Middlewares\Third_Party\RealThread_RTOS\components\finsh\finsh_port.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x01629] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+h:/CodeTestZone/HPT_SYS_v2.0/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_port.c:14:2: error: Please uncomment the line <#include "finsh_config.h"> in the rtconfig.h 
+#error Please uncomment the line <#include "finsh_config.h"> in the rtconfig.h 
+ ^
+1 error generated.
+
+[2021-12-20 20:34:29]	compilation failed at : "h:\CodeTestZone\HPT_SYS_v2.0\Middlewares\Third_Party\RealThread_RTOS\components\finsh\finsh_port.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x01629] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+h:/CodeTestZone/HPT_SYS_v2.0/Middlewares/Third_Party/RealThread_RTOS/components/finsh/finsh_port.c:14:2: error: Please uncomment the line <#include "finsh_config.h"> in the rtconfig.h 
+#error Please uncomment the line <#include "finsh_config.h"> in the rtconfig.h 
+ ^
+1 error generated.
+
+[2021-12-20 20:35:13]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+Error: L6123E: Linking globals named 'USART1_IRQHandler': symbol multiply defined!
+Error: L6134E: LTO module created from LLVM bitcode in dma_io_declaration.o(.llvmbc) could not be added to the codegen.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 2 error messages.
+
+
+[2021-12-20 20:36:08]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+Error: L6123E: Linking globals named 'rt_hw_console_output': symbol multiply defined!
+Error: L6134E: LTO module created from LLVM bitcode in dma_io_declaration.o(.llvmbc) could not be added to the codegen.
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 2 error messages.
+
+
+[2021-12-20 20:37:48]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+Error: L6218E: Undefined symbol usart1 (referred from app_main_control.o).
+Error: L6218E: Undefined symbol usart3 (referred from dma_io_declaration.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+
+
+[2021-12-20 20:39:02]	link failed !, exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x01752] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+Error: L6218E: Undefined symbol usart1 (referred from app_main_control.o).
+Error: L6218E: Undefined symbol usart3 (referred from dma_io_declaration.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 2 error messages.
+
+
+[2021-12-20 20:40:44]	compilation failed at : "h:\CodeTestZone\HPT_SYS_v2.0\Core\Src\main.c", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] errLogs) [0x000e4] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x01629] in <0f7354d16e5d4dfcb9170e5e75cdfffa>:0 
+---
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:111:2: error: use of undeclared identifier 'usart1'; did you mean 'huart1'?
+        usart1.uart_handle = &huart1;
+        ^~~~~~
+        huart1
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:48:20: note: 'huart1' declared here
+UART_HandleTypeDef huart1;
+                   ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:111:9: error: no member named 'uart_handle' in 'struct __UART_HandleTypeDef'
+        usart1.uart_handle = &huart1;
+        ~~~~~~ ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:112:2: error: use of undeclared identifier 'usart1'; did you mean 'huart1'?
+        usart1.dma_tx_handle = &hdma_usart1_tx;
+        ^~~~~~
+        huart1
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:48:20: note: 'huart1' declared here
+UART_HandleTypeDef huart1;
+                   ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:112:9: error: no member named 'dma_tx_handle' in 'struct __UART_HandleTypeDef'
+        usart1.dma_tx_handle = &hdma_usart1_tx;
+        ~~~~~~ ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:113:2: error: use of undeclared identifier 'usart1'; did you mean 'huart1'?
+        usart1.dma_rx_handle = &hdma_usart1_rx;
+        ^~~~~~
+        huart1
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:48:20: note: 'huart1' declared here
+UART_HandleTypeDef huart1;
+                   ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:113:9: error: no member named 'dma_rx_handle' in 'struct __UART_HandleTypeDef'
+        usart1.dma_rx_handle = &hdma_usart1_rx;
+        ~~~~~~ ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:114:2: error: use of undeclared identifier 'usart1'; did you mean 'huart1'?
+        usart1.dma_io_construct = dma_io_construct;
+        ^~~~~~
+        huart1
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:48:20: note: 'huart1' declared here
+UART_HandleTypeDef huart1;
+                   ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:114:9: error: no member named 'dma_io_construct' in 'struct __UART_HandleTypeDef'
+        usart1.dma_io_construct = dma_io_construct;
+        ~~~~~~ ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:115:2: error: use of undeclared identifier 'usart1'; did you mean 'huart1'?
+        usart1.dma_io_construct(&usart1);
+        ^~~~~~
+        huart1
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:48:20: note: 'huart1' declared here
+UART_HandleTypeDef huart1;
+                   ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:115:9: error: no member named 'dma_io_construct' in 'struct __UART_HandleTypeDef'
+        usart1.dma_io_construct(&usart1);
+        ~~~~~~ ^
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:115:27: error: use of undeclared identifier 'usart1'; did you mean 'huart1'?
+        usart1.dma_io_construct(&usart1);
+                                 ^~~~~~
+                                 huart1
+h:/CodeTestZone/HPT_SYS_v2.0/Core/Src/main.c:48:20: note: 'huart1' declared here
+UART_HandleTypeDef huart1;
+                   ^
+11 errors generated.
+
+[2021-12-20 20:41:32]	[done]
+	build successfully !
+
+[2021-12-20 20:43:56]	[done]
+	build successfully !
+
+[2021-12-20 20:45:10]	[done]
+	build successfully !
+

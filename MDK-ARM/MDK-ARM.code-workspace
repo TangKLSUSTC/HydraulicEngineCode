@@ -1,0 +1,50 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            ".eideignore": "ignore"
+        },
+        "files.autoGuessEncoding": true,
+        "[yaml]": {
+            "editor.insertSpaces": true,
+            "editor.tabSize": 4,
+            "editor.autoIndent": "advanced"
+        },
+        "MicroPython.executeButton": [
+            {
+                "text": "▶",
+                "tooltip": "运行",
+                "alignment": "left",
+                "command": "extension.executeFile",
+                "priority": 3.5
+            }
+        ],
+        "MicroPython.syncButton": [
+            {
+                "text": "$(sync)",
+                "tooltip": "同步",
+                "alignment": "left",
+                "command": "extension.execute",
+                "priority": 4
+            }
+        ],
+        "RTT_Studio.Build.Parallel_Jobs": "20"
+    },
+    "extensions": {
+        "recommendations": [
+            "cl.eide",
+            "keroc.hex-fmt",
+            "xiaoyongdong.srecord",
+            "hars.cppsnippets",
+            "zixuanwang.linkerscript",
+            "redhat.vscode-yaml",
+            "dan-c-underwood.arm",
+            "zixuanwang.linkerscript",
+            "marus25.cortex-debug"
+        ]
+    }
+}

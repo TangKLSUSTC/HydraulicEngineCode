@@ -1,0 +1,17 @@
+[2021/12/20 20:22:2 GMT+0800] : launched
+
+
+[2021/12/20 20:27:59 GMT+0800] : launched
+
+
+[Error] : Canceled
+Canceled: Canceled
+	at Object.R [as canceled] (c:\Users\Thomp\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:5:1157)
+	at c:\Users\Thomp\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:99:9064
+	at Array.forEach (<anonymous>)
+	at t.dispose (c:\Users\Thomp\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:99:9012)
+	at p.terminate (c:\Users\Thomp\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:104:694)
+	at r (c:\Users\Thomp\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:114:36400)
+	at Socket.<anonymous> (c:\Users\Thomp\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:114:34012)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
